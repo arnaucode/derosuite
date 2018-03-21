@@ -32,8 +32,8 @@ import "compress/gzip"
 //import "github.com/pierrec/lz4"
 import "github.com/ybbus/jsonrpc"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/blockchain/rpcserver"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/blockchain/rpcserver"
 
 var Wallet_Height uint64 // height of wallet
 var Daemon_Height uint64 // height of daemon

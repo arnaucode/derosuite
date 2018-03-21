@@ -46,8 +46,8 @@ import "fmt"
 
 import "github.com/romana/rlog"
 
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/globals"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
 
 // this file handles and maintains checkpoints which are used by blockchain to skip some checks on known parts of the chain
 // the skipping of the checks can be disabled by command line arguments

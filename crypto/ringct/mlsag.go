@@ -1,7 +1,7 @@
 package ringct
 
 import "fmt"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 // this file has license pending  since it triggers a hard to find golang bug TODO add license after the golang bug is fixed
 /* This file implements MLSAG signatures for the transactions */

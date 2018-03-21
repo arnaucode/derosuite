@@ -28,7 +28,7 @@ import "runtime/debug"
 import "github.com/romana/rlog"
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/globals"
+import "github.com/arnaucode/derosuite/globals"
 
 // all communications flow in little endian
 const LEVIN_SIGNATURE = 0x0101010101012101 //Bender's nightmare

@@ -21,10 +21,10 @@ import "encoding/binary"
 
 //import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/block"
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/transaction"
+import "github.com/arnaucode/derosuite/block"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/transaction"
 
 /* this file implements the only interface which translates comands  to/from blockchain to storage layer *
  *

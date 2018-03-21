@@ -22,8 +22,8 @@ import "sync/atomic"
 
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/blockchain"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/blockchain"
 
 var chain *blockchain.Blockchain // external reference to chain
 

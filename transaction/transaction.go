@@ -22,8 +22,8 @@ import "encoding/binary"
 
 import "github.com/romana/rlog"
 
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto/ringct"
 
 const TXIN_GEN = byte(0xff)
 const TXIN_TO_SCRIPT = byte(0)

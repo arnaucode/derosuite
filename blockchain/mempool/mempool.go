@@ -22,9 +22,9 @@ import "sync/atomic"
 
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/transaction"
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/transaction"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/crypto"
 
 // NOTE: do NOT consider this code as useless, as it is used to avooid double spending attacks within the block
 // let me explain, since we are a state machine, we add block to our blockchain

@@ -20,8 +20,8 @@ import "bytes"
 import "testing"
 import "encoding/hex"
 
-import "github.com/deroproject/derosuite/config"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/config"
+import "github.com/arnaucode/derosuite/crypto"
 
 func Test_Genesis_block_serdes(t *testing.T) {
 

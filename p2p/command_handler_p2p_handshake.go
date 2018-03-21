@@ -23,7 +23,7 @@ import "time"
 import "github.com/romana/rlog"
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/globals"
+import "github.com/arnaucode/derosuite/globals"
 
 // the connection starts with P2P handshake
 

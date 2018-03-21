@@ -27,8 +27,8 @@ import "context"
 import "github.com/intel-go/fastjson"
 import "github.com/osamingo/jsonrpc"
 
-import "github.com/deroproject/derosuite/config"
-import "github.com/deroproject/derosuite/globals"
+import "github.com/arnaucode/derosuite/config"
+import "github.com/arnaucode/derosuite/globals"
 
 /*
 {

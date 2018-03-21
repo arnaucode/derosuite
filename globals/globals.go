@@ -22,7 +22,7 @@ import "golang.org/x/net/proxy"
 import "github.com/sirupsen/logrus"
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/config"
+import "github.com/arnaucode/derosuite/config"
 
 type ChainState int // block chain can only be in 2 state, either SYNCRONISED or syncing
 

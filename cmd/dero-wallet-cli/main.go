@@ -39,11 +39,11 @@ import "github.com/docopt/docopt-go"
 import log "github.com/sirupsen/logrus"
 import "github.com/vmihailenco/msgpack"
 
-//import "github.com/deroproject/derosuite/address"
-import "github.com/deroproject/derosuite/walletapi"
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/walletapi/mnemonics"
+//import "github.com/arnaucode/derosuite/address"
+import "github.com/arnaucode/derosuite/walletapi"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/walletapi/mnemonics"
 
 var command_line string = `dero-wallet-cli 
 DERO : A secure, private blockchain with smart-contracts

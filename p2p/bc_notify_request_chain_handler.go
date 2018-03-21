@@ -18,8 +18,8 @@ package p2p
 
 import "github.com/romana/rlog"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/crypto"
 
 // when 2 peers communiate either both are in sync or async
 // if async, reply to the request below, with your state and other will supply you  list of block ids

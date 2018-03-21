@@ -26,8 +26,8 @@ import "compress/gzip"
 
 import "github.com/chzyer/readline"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/walletapi"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/walletapi"
 
 // handle all commands while  in prompt mode
 func handle_prompt_command(l *readline.Instance, line string) {

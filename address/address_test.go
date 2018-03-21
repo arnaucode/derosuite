@@ -21,7 +21,7 @@ import "bytes"
 import "testing"
 import "encoding/hex"
 
-import "github.com/deroproject/derosuite/config"
+import "github.com/arnaucode/derosuite/config"
 
 func TestAddressError(t *testing.T) {
 	_, err := NewAddress("")

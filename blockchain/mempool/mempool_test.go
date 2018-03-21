@@ -23,8 +23,8 @@ import "encoding/hex"
 
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/transaction"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/transaction"
 
 // test the mempool interface with valid TX
 func Test_mempool_Full_block_72_2c4738d3856e8e3e8f9fc4818a9197d4911af3010e067ec56d08c264627cb547(t *testing.T) {

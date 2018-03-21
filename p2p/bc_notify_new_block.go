@@ -21,8 +21,8 @@ import "encoding/binary"
 
 import "github.com/romana/rlog"
 
-import "github.com/deroproject/derosuite/block"
-import "github.com/deroproject/derosuite/transaction"
+import "github.com/arnaucode/derosuite/block"
+import "github.com/arnaucode/derosuite/transaction"
 
 // FIXME this code can also be shared by NOTIFY_NEW_BLOCK, NOTIFY_NEW_TRANSACTIONS, Handle_BC_Notify_Response_GetObjects
 // this code handles a new block floating in the network

@@ -42,10 +42,10 @@ import "github.com/docopt/docopt-go"
 import log "github.com/sirupsen/logrus"
 import "github.com/ybbus/jsonrpc"
 
-import "github.com/deroproject/derosuite/block"
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/transaction"
-import "github.com/deroproject/derosuite/blockchain/rpcserver"
+import "github.com/arnaucode/derosuite/block"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/transaction"
+import "github.com/arnaucode/derosuite/blockchain/rpcserver"
 
 var command_line string = `dero_explorer
 DERO Explorer: A secure, private blockchain with smart-contracts

@@ -31,7 +31,7 @@ import "github.com/syndtr/goleveldb/leveldb"
 import "github.com/syndtr/goleveldb/leveldb/opt"
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/globals"
+import "github.com/arnaucode/derosuite/globals"
 
 type BoltStore struct {
 	DB         *leveldb.DB

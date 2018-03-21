@@ -30,12 +30,12 @@ import "runtime/debug"
 
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/block"
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/crypto/ringct"
-import "github.com/deroproject/derosuite/transaction"
-import "github.com/deroproject/derosuite/emission"
+import "github.com/arnaucode/derosuite/block"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/transaction"
+import "github.com/arnaucode/derosuite/emission"
 
 /* This function verifies tx fully, means all checks,
  * if the transaction has passed the check it can be added to mempool, relayed or added to blockchain
@@ -260,18 +260,18 @@ func (chain *Blockchain) Verify_Transaction_NonCoinbase(tx *transaction.Transact
 
 	// a similiar block level check is done for double spending attacks within the block itself
 	// check whether the key image is already used or spent earlier ( in blockchain )
-/*
-	for i := 0; i < len(tx.Vin); i++ {
-		k_image := ringct.Key(tx.Vin[i].(transaction.Txin_to_key).K_image)
-		if chain.Read_KeyImage_Status(crypto.Hash(k_image)) {
-			logger.WithFields(log.Fields{
-				"txid":   tx_hash,
-				"kimage": k_image,
-			}).Warnf("Key image is already spent, attempt to double spend ")
-			return false
+	/*
+		for i := 0; i < len(tx.Vin); i++ {
+			k_image := ringct.Key(tx.Vin[i].(transaction.Txin_to_key).K_image)
+			if chain.Read_KeyImage_Status(crypto.Hash(k_image)) {
+				logger.WithFields(log.Fields{
+					"txid":   tx_hash,
+					"kimage": k_image,
+				}).Warnf("Key image is already spent, attempt to double spend ")
+				return false
+			}
 		}
-	}
-*/
+	*/
 	// check whether the TX contains a signature or NOT
 	switch tx.RctSignature.Get_Sig_Type() {
 	case ringct.RCTTypeSimple, ringct.RCTTypeFull: // default case, pass through

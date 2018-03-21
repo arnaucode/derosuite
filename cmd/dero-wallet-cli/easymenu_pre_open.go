@@ -21,8 +21,8 @@ import "strings"
 
 import "github.com/chzyer/readline"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/walletapi"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/walletapi"
 
 // display menu before a wallet is opened
 func display_easymenu_pre_open_command(l *readline.Instance) {

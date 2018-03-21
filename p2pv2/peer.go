@@ -25,10 +25,10 @@ import "time"
 //import log "github.com/sirupsen/logrus"
 import "github.com/vmihailenco/msgpack"
 
-//import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/globals"
+//import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
 
-//import "github.com/deroproject/derosuite/blockchain"
+//import "github.com/arnaucode/derosuite/blockchain"
 
 // This file defines  what all needs to be responded to become a server ( handling incoming requests)
 

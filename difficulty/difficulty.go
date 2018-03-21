@@ -19,8 +19,8 @@ package difficulty
 import "fmt"
 import "math/big"
 
-import "github.com/deroproject/derosuite/config"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/config"
+import "github.com/arnaucode/derosuite/crypto"
 
 var (
 	// bigZero is 0 represented as a big.Int.  It is defined here to avoid

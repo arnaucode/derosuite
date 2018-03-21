@@ -17,7 +17,7 @@
 package config
 
 import "github.com/satori/go.uuid"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 // all global configuration variables are picked from here
 

@@ -20,7 +20,7 @@ import "io"
 import "fmt"
 import "crypto/rand"
 
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 const KeyLength = 32
 

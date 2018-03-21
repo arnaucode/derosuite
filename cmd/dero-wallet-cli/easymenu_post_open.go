@@ -22,8 +22,8 @@ import "strings"
 
 import "github.com/chzyer/readline"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/walletapi"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/walletapi"
 
 // handle menu if a wallet is currently opened
 func display_easymenu_post_open_command(l *readline.Instance) {

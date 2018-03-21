@@ -17,7 +17,7 @@
 package inputmaturity
 
 import "time"
-import "github.com/deroproject/derosuite/config"
+import "github.com/arnaucode/derosuite/config"
 
 //this file implements the logic to detect whether an input is mature or still locked
 //This function is crucial as any bugs can have catastrophic effects

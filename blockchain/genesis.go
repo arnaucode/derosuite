@@ -20,9 +20,9 @@ import "encoding/hex"
 
 import "github.com/romana/rlog"
 
-//import "github.com/deroproject/derosuite/address"
-import "github.com/deroproject/derosuite/block"
-import "github.com/deroproject/derosuite/globals"
+//import "github.com/arnaucode/derosuite/address"
+import "github.com/arnaucode/derosuite/block"
+import "github.com/arnaucode/derosuite/globals"
 
 /*
 func Create_Miner_Transaction(height uint64, median_size uint64, already_generated_coins uint64,

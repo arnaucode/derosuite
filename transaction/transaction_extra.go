@@ -23,7 +23,7 @@ import "bytes"
 
 import "github.com/romana/rlog"
 
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 // refer https://cryptonote.org/cns/cns005.txt to understand slightly more ( it DOES NOT cover everything)
 // much of these constants are understood from tx_extra.h and cryptonote_format_utils.cpp

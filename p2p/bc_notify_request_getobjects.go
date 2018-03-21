@@ -22,8 +22,8 @@ import "encoding/binary"
 
 import "github.com/romana/rlog"
 
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/block"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/block"
 
 // The peer triggers this it wants some blocks or txs
 func Handle_BC_Notify_Request_GetObjects(connection *Connection,

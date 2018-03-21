@@ -19,13 +19,13 @@ package walletapi
 import "fmt"
 import "sync"
 
-import "github.com/deroproject/derosuite/config"
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/crypto/ringct"
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/walletapi/mnemonics"
-import "github.com/deroproject/derosuite/address"
-import "github.com/deroproject/derosuite/blockchain/inputmaturity"
+import "github.com/arnaucode/derosuite/config"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/walletapi/mnemonics"
+import "github.com/arnaucode/derosuite/address"
+import "github.com/arnaucode/derosuite/blockchain/inputmaturity"
 
 type _Keys struct {
 	Spendkey_Secret crypto.Key

@@ -17,7 +17,7 @@
 package ringct
 
 import "encoding/hex"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 // convert a hex string to a key
 // a copy of these functions exists in the crypto package also

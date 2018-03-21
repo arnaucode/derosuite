@@ -21,7 +21,7 @@ import "bytes"
 import "testing"
 import "encoding/hex"
 
-import "github.com/deroproject/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/crypto/ringct"
 
 // the tests are here because data depends on tx  which is currently part of blockchain
 // once a new Transaction package is created, these test can move directly to ringct package without major modification

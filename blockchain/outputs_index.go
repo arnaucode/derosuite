@@ -29,13 +29,13 @@ import "fmt"
 
 import "github.com/vmihailenco/msgpack"
 
-import "github.com/deroproject/derosuite/config"
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/crypto/ringct"
-import "github.com/deroproject/derosuite/transaction"
+import "github.com/arnaucode/derosuite/config"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/transaction"
 
-import "github.com/deroproject/derosuite/walletapi"
+import "github.com/arnaucode/derosuite/walletapi"
 
 type Index_Data struct {
 	InKey     ringct.CtKey

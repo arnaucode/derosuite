@@ -116,7 +116,7 @@ The daemon and other programs are only for limited testing and evaluation purpos
 - The golang versions of derosuite are using non-standard ports so as it does NOT clash with already running daemon.
 
 ## Build:
-In go workspace: **go get -u github.com/deroproject/derosuite/...**
+In go workspace: **go get -u github.com/arnaucode/derosuite/...**
 ​    
 Check bin folder for derod, explorer and wallet  binaries. Use golang-1.9 version minimum.
 

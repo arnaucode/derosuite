@@ -21,8 +21,8 @@ import "encoding/binary"
 
 import "github.com/romana/rlog"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/crypto"
 
 /* the data structure which needs to be serialised is    defined in cryptonote_protocol_defs.h
 * struct request

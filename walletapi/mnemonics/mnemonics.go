@@ -25,7 +25,7 @@ import "unicode/utf8"
 
 import "hash/crc32"
 
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 type Language struct {
 	Name                 string   // Name of the language

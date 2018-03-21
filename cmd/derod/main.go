@@ -33,18 +33,18 @@ import "github.com/chzyer/readline"
 import "github.com/docopt/docopt-go"
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/p2p"
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/blockchain"
+import "github.com/arnaucode/derosuite/p2p"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/blockchain"
 
-//import "github.com/deroproject/derosuite/checkpoints"
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/crypto/ringct"
-import "github.com/deroproject/derosuite/blockchain/rpcserver"
+//import "github.com/arnaucode/derosuite/checkpoints"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/blockchain/rpcserver"
 
-//import "github.com/deroproject/derosuite/address"
+//import "github.com/arnaucode/derosuite/address"
 
-var command_line string = `derod 
+var command_line string = `derod
 DERO : A secure, private blockchain with smart-contracts
 
 Usage:
@@ -373,9 +373,9 @@ func main() {
 			// fmt.Printf("chain diff %d\n",chain.Get_Difficulty_At_Block(chain.Top_ID))
 			//fmt.Printf("chain nw rate %d\n", chain.Get_Network_HashRate())
 			inc, out := p2p.Peer_Direction_Count()
-supply := chain.Load_Already_Generated_Coins_for_BL_ID(chain.Get_Top_ID()) 
-supply -= (2000000* 1000000000000) // remove premine 
-fmt.Printf("Network %s Height %d NW Hashrate %0.03f MH/sec TH %s Peers %d inc, %d out MEMPOOL size %d Total Circulating Supply %s DERO \n", globals.Config.Name, chain.Get_Height(), float64(chain.Get_Network_HashRate())/1000000.0, chain.Get_Top_ID(), inc, out, len(chain.Mempool.Mempool_List_TX()), globals.FormatMoney(supply))
+			supply := chain.Load_Already_Generated_Coins_for_BL_ID(chain.Get_Top_ID())
+			supply -= (2000000 * 1000000000000) // remove premine
+			fmt.Printf("Network %s Height %d NW Hashrate %0.03f MH/sec TH %s Peers %d inc, %d out MEMPOOL size %d Total Circulating Supply %s DERO \n", globals.Config.Name, chain.Get_Height(), float64(chain.Get_Network_HashRate())/1000000.0, chain.Get_Top_ID(), inc, out, len(chain.Mempool.Mempool_List_TX()), globals.FormatMoney(supply))
 		case strings.ToLower(line) == "sync_info":
 			p2p.Connection_Print()
 		case strings.ToLower(line) == "bye":

@@ -18,8 +18,8 @@ package globals
 
 //import  "github.com/vmihailenco/msgpack"
 
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto/ringct"
 
 // this structure is way blockchain sends outputs to wallet
 // this structure is also used internal by blockchain itself, when TXs are expanded and verified

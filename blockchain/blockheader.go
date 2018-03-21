@@ -17,7 +17,7 @@
 package blockchain
 
 //import "fmt"
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 // this is used to print blockheader for the rpc and the daemon
 type BlockHeader_Print struct {

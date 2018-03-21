@@ -19,7 +19,7 @@ package blockchain
 import "sort"
 import "testing"
 
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 /* this function tests the core chain selection algorithm for reorganisation purpose */
 func Test_chain_sort(t *testing.T) {

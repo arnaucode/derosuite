@@ -21,8 +21,8 @@ import "encoding/hex"
 
 //import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/globals"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/globals"
 
 var mainnet_static_checkpoints = map[uint64]crypto.Hash{}
 var testnet_static_checkpoints = map[uint64]crypto.Hash{}

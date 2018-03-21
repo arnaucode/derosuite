@@ -18,10 +18,10 @@ package blockchain
 
 import "fmt"
 
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/address"
-import "github.com/deroproject/derosuite/crypto/ringct"
-import "github.com/deroproject/derosuite/transaction"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/address"
+import "github.com/arnaucode/derosuite/crypto/ringct"
+import "github.com/arnaucode/derosuite/transaction"
 
 // this function creates a miner tx, with specific blockreward
 // TODO we should consider hardfork  version while creating a miner tx

@@ -30,7 +30,7 @@ import "github.com/romana/rlog"
 import bolt "github.com/coreos/bbolt"
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/globals"
+import "github.com/arnaucode/derosuite/globals"
 
 type BoltStore struct {
 	DB         *bolt.DB

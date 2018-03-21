@@ -27,8 +27,8 @@ import "context"
 import "github.com/intel-go/fastjson"
 import "github.com/osamingo/jsonrpc"
 
-import "github.com/deroproject/derosuite/crypto"
-import "github.com/deroproject/derosuite/blockchain"
+import "github.com/arnaucode/derosuite/crypto"
+import "github.com/arnaucode/derosuite/blockchain"
 
 type (
 	GetBlockHeaderByHash_Handler struct{}

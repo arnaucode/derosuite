@@ -30,8 +30,8 @@ import "github.com/osamingo/jsonrpc"
 
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/globals"
-import "github.com/deroproject/derosuite/blockchain"
+import "github.com/arnaucode/derosuite/globals"
+import "github.com/arnaucode/derosuite/blockchain"
 
 /* this file implements the rpcserver api, so as wallet and block explorer tools can work without migration */
 

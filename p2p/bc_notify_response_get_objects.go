@@ -21,10 +21,10 @@ import "bytes"
 import "github.com/romana/rlog"
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/block"
+import "github.com/arnaucode/derosuite/block"
 
-//import "github.com/deroproject/derosuite/blockchain"
-import "github.com/deroproject/derosuite/transaction"
+//import "github.com/arnaucode/derosuite/blockchain"
+import "github.com/arnaucode/derosuite/transaction"
 
 // if the incoming blob contains block with included transactions
 //00009F94  01 11 01 01 01 01 02 01  01 08 06 62 6c 6f 63 6b   ........ ...block

@@ -19,7 +19,7 @@ package blockchain
 import "fmt"
 import "encoding/hex"
 
-import "github.com/deroproject/derosuite/block"
+import "github.com/arnaucode/derosuite/block"
 
 // this file only contains an altchain, 13 long
 // which can be used to test out consensus on live data in house

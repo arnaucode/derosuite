@@ -27,7 +27,7 @@ import "container/list"
 
 import log "github.com/sirupsen/logrus"
 
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 // any connection incoming/outgoing can only be in this state
 type Conn_State string

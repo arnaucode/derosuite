@@ -19,7 +19,7 @@ package ringct
 import "io"
 import "fmt"
 
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 // enable debuggin mode within ringct
 // if true debugging mode enabled

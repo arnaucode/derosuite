@@ -17,7 +17,7 @@
 package blockchain
 
 import "math/big"
-import "github.com/deroproject/derosuite/config"
+import "github.com/arnaucode/derosuite/config"
 
 // this file implements the logic to calculate fees dynamicallly
 

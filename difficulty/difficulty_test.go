@@ -18,7 +18,7 @@ package difficulty
 
 import "testing"
 
-import "github.com/deroproject/derosuite/crypto"
+import "github.com/arnaucode/derosuite/crypto"
 
 func Test_Next_Difficulty(t *testing.T) {
 
