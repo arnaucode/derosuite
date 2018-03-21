@@ -58,7 +58,8 @@ func P2P_engine() {
 	}
 
 	// add hard-coded seeds
-	end_point_list = append(end_point_list, "212.8.242.60:18090")
+	//end_point_list = append(end_point_list, "212.8.242.60:18090")
+	end_point_list = append(end_point_list, "127.0.0.1:18090")
 
 	for {
 		if Exit_In_Progress {
